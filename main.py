@@ -1,7 +1,7 @@
 # Simle application to test DEFAULT  Light sensor - LED 
-# Application measures light intensity , it is in range 0-100
-# and result is dispayed on LED matrix (0=0LEDs, 100=25LEDs)
-# !!! If there's no light sensor connected to the PIN, system returns constant value 25 !!!
+# Application measures light intensity , it is in range 0-255
+# and result is dispayed on LED matrix (0=0LEDs, 255=25LEDs)
+# Different sensitivity comparing to Smart Home sensor - this one doesn't react well on inhouse LED light from bulb
 
 ligt_intensity = 0
 min_n = 0
